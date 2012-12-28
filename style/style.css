@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image:url(../images/background.png);
+}
+div.container {
+	background-image:url(../images/background.png);
+	border:1px #FFFFFF solid;
+	width: 980px;
+	height: 800px;
+	margin: 0 auto;
+	direction:rtl;
+}
+div.clear {
+	width: 0;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+@font-face {
+	font-family: 'Allan';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Allan'), url(fonts/allan.woff) format('woff');
+}
+@font-face {
+	font-family : "'B Homa'";
+	src : url(fonts/homa.eot);
+	src : local('â˜º' ), url(fonts/homa.woff) format('woff' ), url(fonts/homa.ttf) format('truetype' ), url(fonts/homa.svg) format('svg' );
+	font-weight : normal;
+	font-style : normal;
+}
