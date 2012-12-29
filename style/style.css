@@ -6,16 +6,16 @@
 	padding: 0;
 }
 body {
-	background-image:url(../images/background.png);
+	background-image: url(../images/background.png);
 }
 div.container {
-	background-image:url(../images/background.png);
-	border-bottom:1px #FFFFFF solid;
+	background-image: url(../images/background.png);
+	border-bottom: 1px #FFFFFF solid;
 	width: 980px;
 	height: 600px;
 	margin: auto auto;
-	direction:rtl;
-	position:relative;
+	direction: rtl;
+	position: relative;
 	top: 100px;
 }
 div.clear {
@@ -39,12 +39,29 @@ div.clear {
 }
 /*---------------- First Page ---------------*/
 .img-benam {
-	height:102px;
-	width:155px;
+	height: 102px;
+	width: 155px;
 }
 .f-center {
-	width:200px;
-	height:120px;
-	border:1px #FFFFFF solid;
-	direction:ltr;
+	width: 397px;
+	height: 317px;
+	margin: 40px auto 10px auto;
+	position: relative;
+}
+.img-web {
+	position: absolute;
+	top: 1px;
+	right: 221px;
+	opacity: 0.5;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+}
+.img-web:hover {
+	opacity: 1;
+	-moz-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
 }
