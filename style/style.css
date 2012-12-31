@@ -42,10 +42,15 @@ div.clear {
 	height: 102px;
 	width: 155px;
 }
+.onvan-fp {
+	width:315px;
+	height:112px;
+	margin:auto auto;
+}
 .f-center {
 	width: 397px;
 	height: 317px;
-	margin: 40px auto 10px auto;
+	margin: 40px auto 0px 0px;
 	position: relative;
 }
 .img-web {
