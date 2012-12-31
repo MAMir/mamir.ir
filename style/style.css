@@ -8,16 +8,6 @@
 body {
 	background-image: url(../images/background.png);
 }
-div.container {
-	background-image: url(../images/background.png);
-	border-bottom: 1px #FFFFFF solid;
-	width: 980px;
-	height: 600px;
-	margin: auto auto;
-	direction: rtl;
-	position: relative;
-	top: 100px;
-}
 div.clear {
 	width: 0;
 	height: 0;
@@ -38,13 +28,23 @@ div.clear {
 	font-style : normal;
 }
 /*---------------- First Page ---------------*/
+div.container-fp {
+	background-image: url(../images/background.png);
+	border-bottom: 1px #FFFFFF solid;
+	width: 980px;
+	height: 671px;
+	margin: auto auto;
+	direction: rtl;
+	position: relative;
+	top: 50px;
+}
 .img-benam {
 	height: 102px;
 	width: 155px;
 }
 .onvan-fp {
-	width:315px;
-	height:112px;
+	width:365px;
+	height:203px;
 	margin:auto auto;
 }
 .f-center {
