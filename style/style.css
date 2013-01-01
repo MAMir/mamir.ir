@@ -37,7 +37,7 @@ div.container-fp {
 	position: relative;
 	top: 50px;
 }
-.img-benam {
+.be-name-khoda-fp{
 	height: 102px;
 	width: 155px;
 }
@@ -46,13 +46,13 @@ div.container-fp {
 	height: 203px;
 	margin: auto auto;
 }
-.f-center {
+.web-design-fp {
 	width: 397px;
 	height: 317px;
 	margin: 40px auto 0px 0px;
 	position: relative;
 }
-.img-web {
+.web-of-web-design-fp {
 	position: absolute;
 	top: 1px;
 	right: 221px;
@@ -62,7 +62,7 @@ div.container-fp {
 	-ms-transition: all 0.4s linear;
 	-o-transition: all 0.4s linear;
 }
-.img-web:hover {
+.web-of-web-design-fp:hover {
 	opacity: 1;
 	-moz-transition: all 0.4s linear;
 	-webkit-transition: all 0.4s linear;
