@@ -30,7 +30,6 @@ div.clear {
 /*---------------- First Page ---------------*/
 div.container-fp {
 	background-image: url(../images/background.png);
-	border-bottom: 1px #FFFFFF solid;
 	width: 980px;
 	height: 671px;
 	margin: auto auto;
@@ -43,9 +42,9 @@ div.container-fp {
 	width: 155px;
 }
 .onvan-fp {
-	width:365px;
-	height:203px;
-	margin:auto auto;
+	width: 365px;
+	height: 203px;
+	margin: auto auto;
 }
 .f-center {
 	width: 397px;
@@ -69,4 +68,9 @@ div.container-fp {
 	-webkit-transition: all 0.4s linear;
 	-ms-transition: all 0.4s linear;
 	-o-transition: all 0.4s linear;
+}
+.svg-gradients-fp {
+	width: 980px;
+	height: 13px;
+	margin: auto auto;
 }

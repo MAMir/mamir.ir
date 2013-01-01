@@ -4,13 +4,12 @@
 
 div.container-fp {
 	background-image: url(../images/background.png);
-	border-bottom: 1px #FFFFFF solid;
 	width: 980px;
 	height: 671px;
 	margin: auto auto;
 	direction: rtl;
 	position: relative;
-	top: 100px;
+	top: 50px;
 }
 
 /*---------------- First Page ---------------*/
