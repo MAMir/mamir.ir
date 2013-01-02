@@ -52,18 +52,25 @@ div.container-fp {
 	margin: 40px auto 0px 0px;
 	position: relative;
 }
-.web-of-web-design-fp {
+.web-ico-fp {
 	position: absolute;
 	top: 1px;
 	right: 221px;
-	opacity: 0.5;
+}
+.design-ico-fp {
+	position: absolute;
+	top: 158px;
+	right: 125px;
+}
+.web-ico-fp,.design-ico-fp {
+	opacity: 0.4;
 	-moz-transition: all 0.4s linear;
 	-webkit-transition: all 0.4s linear;
 	-ms-transition: all 0.4s linear;
 	-o-transition: all 0.4s linear;
 }
-.web-of-web-design-fp:hover {
-	opacity: 1;
+.web-ico-fp:hover, .design-ico-fp:hover {
+	opacity: 0.7;
 	-moz-transition: all 0.4s linear;
 	-webkit-transition: all 0.4s linear;
 	-ms-transition: all 0.4s linear;
